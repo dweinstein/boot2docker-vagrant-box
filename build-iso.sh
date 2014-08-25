@@ -6,7 +6,7 @@
 set -e
 set -x
 
-B2D_URL="https://github.com/boot2docker/boot2docker/releases/download/v1.1.1/boot2docker.iso"
+B2D_URL="https://github.com/dweinstein/boot2docker/releases/download/v1.2.1-binfmt/boot2docker.iso"
 apt-get -y update
 apt-get install -y genisoimage
 
